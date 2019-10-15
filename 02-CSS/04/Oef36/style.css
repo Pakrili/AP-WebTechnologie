@@ -1,0 +1,61 @@
+body {
+	background-color: #bfbaba;
+}
+h1 {
+	background-color: #e0dcdc;
+	padding: 10px 0px 10px 25px;
+}
+.phwaarde {
+	list-style: none;
+	color: #ffffff;
+	padding: 0;
+	text-transform: uppercase;
+}
+.phwaarde > li {
+	padding: 5px;
+}
+.phwaarde > li:nth-child(1) {
+	background-color: #086fcf;
+}
+.phwaarde > li:nth-child(2) {
+	background-color: #088ccf;
+}
+.phwaarde > li:nth-child(3) {
+	background-color: #089dcf;
+}
+.phwaarde > li:nth-child(4) {
+	background-color: #08aecf;
+}
+.phwaarde > li:nth-child(5) {
+	background-color: #08becf;
+}
+.phwaarde > li:nth-child(6) {
+	background-color: #08c8cf;
+}
+.phwaarde > li:nth-child(7) {
+	background-color: #08cfcc;
+}
+.phwaarde > li:nth-child(8) {
+	background-color: #08cf83;
+}
+.phwaarde > li:nth-child(9) {
+	background-color: #f792cf;
+}
+.phwaarde > li:nth-child(10) {
+	background-color: #f779c5;
+}
+.phwaarde > li:nth-child(11) {
+	background-color: #f772c2;
+}
+.phwaarde > li:nth-child(12) {
+	background-color: #f55bb7;
+}
+.phwaarde > li:nth-child(13) {
+	background-color: #f23da9;
+}
+.phwaarde > li:nth-child(14) {
+	background-color: #f229a1;
+}
+.phwaarde > li:nth-child(15) {
+	background-color: #cc234a;
+}

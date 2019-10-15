@@ -1,0 +1,80 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #f5efef;
+}
+
+li {
+	list-style-image: url(./icon-plus.png);
+	line-height: 1.8em;
+}
+table{
+	border-spacing: 0px;
+	
+}
+thead > tr > th {
+	background-color: #75bae6;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: -1px -1px 3px black;
+	letter-spacing: 0.20em;
+	border-bottom: 2px solid gray;
+	
+}
+
+thead > tr > th:nth-child(1) {
+	border-top-left-radius: 0.3em;
+}
+
+thead > tr > th:nth-child(4) {
+	border-top-right-radius: 0.3em;
+}
+
+tr:nth-child(odd) {
+	background-color: #a9d2ec;
+}
+
+tr:nth-child(even) {
+	background-color: #c2e7fd;
+}
+
+td,th {
+	width: 400px;
+	padding: 6px;
+	text-align: left;
+	color: #4e5153;
+	border-right: 1px solid rgb(177, 172, 172);
+	border-bottom: 1px solid rgb(177, 172, 172);
+}
+td{
+	font-size: 0.9em;
+}
+
+fieldset {
+	margin-top: 30px;
+	width: 350px;
+	padding: 30px 30px 30px 6px;
+	background-color: #ffffff;
+
+}
+fieldset >legend{
+	font-style: italic;
+}
+
+fieldset > label {
+	display: inline-block;
+	width: 10em;
+	border: 1px black;
+	margin: 5px 0px 5px 5px;
+}
+
+input[type="submit"] {
+	background-color: #038018;
+	color: #ffffff;
+	border-radius: 0.4em;
+	height: 2.2em;
+	width: 4em;
+	border: 0px;
+	margin-top: 1.5em;
+}

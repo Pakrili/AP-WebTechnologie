@@ -1,0 +1,15 @@
+body {
+	background-color: gray;
+}
+h1 {
+	color: #ffffff;
+	background-color: #1ba196;
+	text-transform: uppercase;
+}
+h2 {
+	color: #ffffff;
+	background-color: #e60e76;
+}
+p {
+	background-color: #ffffff;
+}

@@ -1,0 +1,32 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	padding: 0px 0px 0px 10px;
+}
+
+h1 {
+	text-shadow: 3px 3px 5px #000000;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 3.8em;
+	margin-bottom: 0em;
+}
+h2 {
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-top: 0.4em;
+}
+h3 {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: normal;
+	font-size: 1.6em;
+}
+
+.bold {
+	font-weight: bold;
+}
+.blauw {
+	color: #117ac0;
+}

@@ -1,0 +1,20 @@
+*{
+    border: 1px solid;
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    width: 100%;
+}
+section{
+    width: 62%;
+}
+aside{
+    width: 38%;
+}
+article{
+    border: 1px dotted red;
+}
+nav{
+    width: 50%
+}
