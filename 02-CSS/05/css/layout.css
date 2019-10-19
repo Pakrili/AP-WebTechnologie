@@ -1,0 +1,64 @@
+
+/*Header Layout */
+header>img{
+    grid-area: logo;
+}
+header>nav{
+    grid-area: navigatie;
+}
+
+header{
+    grid-area: header;
+    display: grid;
+    grid-template-columns:30% 35% 35%;
+    grid-template-areas: 'logo ......... navigatie';
+}
+
+
+section>article>.artikelfoto{
+    grid-area: afbeelding;
+}
+section>article>h1{
+    grid-area: titel;
+}
+section>article>h2{
+    grid-area: subtitel;
+}
+section>article>p{
+    grid-area: tekst;
+}
+section>article>.knop{
+    grid-area: knop;
+}
+section>article{
+    grid-area: section;
+    grid-gap: 5px;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-areas: 
+    'afbeelding titel titel'
+    'afbeelding subtitel subtitel'
+    'afbeelding tekst tekst'
+    'afbeelding ......... knop';
+}
+
+
+aside{
+    grid-area: aside;
+}
+
+
+footer{
+    grid-area: footer;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 
+    'header header'
+    'section aside'
+    'footer footer';
+}
+
+
