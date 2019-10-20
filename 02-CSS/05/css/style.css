@@ -18,7 +18,7 @@ a:active{
 a:hover{
     color: rgb(5, 0, 160);
 }
-
+#home{ margin: 0px; padding:15px 0px 0px 0px;}
 ul{
     list-style-image: url(../imgs/list-item.png);
 }
@@ -47,9 +47,6 @@ p{
     font-weight: 400;
     color: rgb(104, 103, 108);
 }
-.knop{
-    padding: 15px auto;
-}
 
 nav>ul{
     text-align: right;
@@ -63,17 +60,18 @@ article>.artikelfoto{
     display: block;
     object-fit: cover;
 }
-.knop{
+.knop, input[type=submit]{
+    padding: 15px auto;
     background-color:  rgb(151, 0, 12) ;
     border-radius: 12px;
     text-decoration-line: none;  
     text-align: center;
 }
-.knop:active{
+.knop:active, input[type=submit]:active,
+.knop:hover, input[type=submit]:hover{
     background-color:  rgb(196, 0, 9) ;
 }
-.knop>h3{
-    padding: 15px auto 15px auto;
+.knop>p, input[type=submit]{
     color: #ffffff;
 }
 aside>p{

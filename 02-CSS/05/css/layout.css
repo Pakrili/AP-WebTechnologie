@@ -5,13 +5,18 @@ header>img{
 }
 header>nav{
     grid-area: navigatie;
+    position: absolute;
+    top: -20px;
+    right: 0px;
 }
+
 
 header{
     grid-area: header;
     display: grid;
     grid-template-columns:30% 35% 35%;
-    grid-template-areas: 'logo ......... navigatie';
+    grid-template-areas: 'logo .. navigatie';
+    position: relative;
 }
 
 
