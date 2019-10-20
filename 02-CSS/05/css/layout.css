@@ -37,7 +37,7 @@ section>article>.knop{
 }
 section>article{
     grid-area: section;
-    grid-gap: 5px;
+    grid-column-gap: 5px;
     display: grid;
     grid-template-columns: 30% 50% 20%;
     grid-template-areas: 
