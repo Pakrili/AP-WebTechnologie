@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="nl-BE" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Daems Patrick">
+  <meta name="description" content="Opdracht 1">
+  <meta name="keywords" content="AP, Opdracht1, Webtechnologie, Centraal Station">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opdracht1</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header id="home">
+    <!-- HIER KOMT LOGO EN NAVIGATIE -->
+    <a href="index.html"><img src="./images/logo.jpg" alt="logo antwerpen centraal"></a>
+    <nav>
+      <ul>
+        <a href="#home">Home</a>
+        <a href="#history">Geschiedenis</a>
+        <a href="#gallery">Galerij</a>
+        <a href="#contact">Contact</a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Het Centraal Station</h1>
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </article>
+    </section>
+    <section id="history">
+      <!-- HIER KOMT HET DEEL GESCHIEDENIS -->
+      <h2>Geschiedenins</h2>
+      <article>
+        <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+          totam rem aperiam,
+          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+          nisi ut aliquid ex ea commodi consequatur?
+          Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+          vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+        </p>
+        <ul>
+          <li>laborum</li>
+          <li>debitis</li>
+          <li>non recusandae</li>
+          <li>doloribus</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="gallery">
+      <h2>Galerij</h2>
+      <!-- HIER KOMT HET DEEL GALERIJ -->
+      <div id="galleryPictures">
+      <img src="./images/station1-lang.jpg" alt="Breed bovenaanzicht perron"></div>
+      <img src="./images/station1-klein.jpg" alt="Bovenaanzicht perron">
+      <img src="./images/station2-klein.jpg" alt="Stationhal">
+      <img src="./images/station3-klein.jpg" alt="Stationhal trap">
+      <img src="./images/station4-klein.jpg" alt="tussenverdiep">
+      <img src="./images/station5-klein.jpg" alt="Model van station">
+      <img src="./images/station6-klein.jpg" alt="Station vanop Astridplein">
+    </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <!-- HIER KOMT HET DEEL CONTACT -->
+      <form action="#" method="GET" id="contactForm">
+        <input type="text" name="nameTxt" id="contactName" placeholder="Naam" required>
+        <input type="email" name="mailTxt" id="contactMail" placeholder="E-Mail" required>
+        <textarea name="messageTxt" id="contactMessage" cols="25" rows="2" placeholder="Boodschap" required></textarea>
+        <div  id="contactAgree"><input type="checkbox" name="agreeChb" required>
+        <label for="agreechb">Akkoord met A.V.</label></div>
+        <button type="submit" id="contactSubmit">Verzenden</button>
+      </form>
+    </section>
+  </main>
+
+  <aside class="aside">
+    <!-- HIER KOMT DE ZIJBALK -->
+    <form action="#" method="get">
+      <label for="searchTxt">
+        <h2>Zoeken</h2>
+      </label>
+      <input type="text" name="searchTxt" id="searchtxt">
+      <button type="submit">Zoeken</button>
+    </form>
+    <h2 id="news">Nieuws</h2>
+    <ul>
+      <li>voluptatibus maiores</li>
+      <li>qui dolorem ipsum</li>
+      <li>quis nostrum exercitationem</li>
+      <li>laborum et dolorum</li>
+    </ul>
+    <img src="./images/aside.png" alt="files moe">
+  </aside>
+  <a href="#Home" id="toTop">Back to top</a>
+  <footer>
+    <!-- HIER KOMEN DE CONTACTGEGEVENS -->
+    <p>Website gemaakt door &copy; Daems Patrick | Programmeren 6</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+@font-face{
+    font-family: Alphabet;
+    src: url('../fonts/Alfphabet.otf');
+}
+*{
+    margin: 15px 25px 15px 20px;
+    background-color: #ffffff;
+}
+h1{
+    font-family: Alphabet;
+    font-size: 20px;
+    font-weight: 800;
+    color: #006ab3;
+}
+h2{
+    font-family: Alphabet;
+    font-size: 16px;
+    font-weight: 400;
+    color: #006ab3;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+li{
+    list-style-image: url(../images/list-item.png);
+}
+
+button, a{
+    color: #168cda;
+}
+
+button, a:active{
+    color: #ed6d10;
+}
+
+/* Layout */
+header{grid-area: header;}
+main{grid-area: main;}
+aside{grid-area: aside;}
+footer{grid-area: footer;}
+
+body{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 
+    'header header'
+    'main aside'
+    'footer footer';
+}
+
+header>a{grid-area: logo;}
+header>nav{
+    grid-area: navigatie;
+    align-content: right;
+}
+header img{
+    max-width: 100%;
+    height: auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-areas: 'logo navigatie';
+}
+
+#galleryPictures{
+    display: flex;
+    flex-wrap: wrap;
+}
+#galleryPictures>img{
+    max-width: 100%;
+    height: auto;
+}
+
+aside>form{ margin: 0px;}
+aside>form>input{ 
+    width: 70%;
+    margin: 0px;
+}
+aside>form>button{ 
+    position: absolute;
+    margin-top: 25px;
+    right:120px;
+}
+aside img{
+    max-width: 100%;
+    height: auto;
+}
+aside>#news{
+    margin-top: 50px;
+}
+
+#contactName{grid-area: name;}
+#contactMail{grid-area: mail;}
+#contactMessage{grid-area: message;}
+#contactAgree{grid-area: agree;}
+#contactSubmit{grid-area: submit;}
+#contactForm{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas: 
+    'name message agree'
+    'mail message submit';
+}
+
+#contactAgree>label{margin: 0px;}
+
+#toTop{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+footer{
+    text-align: center;
+}
