@@ -28,13 +28,22 @@ li{
     list-style-image: url(../images/list-item.png);
 }
 
-button, a{
+a{
     color: #168cda;
 }
-
-button, a:active{
+a:active{
     color: #ed6d10;
 }
+
+button{
+    background-color: #168cda ;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+button:active{
+    background-color: #ed6d10 ;
+} 
 
 /* Layout */
 header{grid-area: header;}
